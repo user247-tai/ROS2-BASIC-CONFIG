@@ -36,4 +36,4 @@ Set up ROS2 Humble Environment:
       
     + Then try to build with colcon in ros2_ws dir: "colcon build" or "colcon build --packages-select {cpp_pkg_name}"
  
-Some tools that can be used frequenly: rqt, rqt_graph, turtlesim, rviz, gazebo.
+-  Some tools that can be used frequenly: rqt, rqt_graph, turtlesim, rviz, gazebo.
