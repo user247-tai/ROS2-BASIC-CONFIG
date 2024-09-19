@@ -2,6 +2,7 @@
 Tips:
 
 1. Colcon:
+  - Build a single package: colcon build --packages-select {packages name}
   - Don't need to rebuild colcon once the code is changed: colcon build --symlink-install (but if we create a new file, we have to build again).
     
 2. Node:
