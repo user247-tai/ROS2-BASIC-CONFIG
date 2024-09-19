@@ -25,12 +25,15 @@ Set up ROS2 Humble Environment:
     + Step 2: Go to ros2_ws directory and then build it with colcon: "cd ros2_ws" & "colcon build". Now we will have 4 directory inside ros2_ws dir: build, install, log and src
       
     + Step 3: Open .bashrc file in home (~) directory using gedit: "gedit ~/.bashrc" and Add "source ~/ros2_ws/install/setup.bash" line at the bottom of .bashrc file
-  6. Create a python package in 'ros2_ws/src' path:
+  6. Create a package in 'ros2_ws/src' path(option):
+
+    + Use this command to create a package: "ros2 pkg create {pkg_name}". Ex: ros2 pkg create my_robot_interfaces
+  7. Create a python package in 'ros2_ws/src' path:
 
     + Use this command to create a python package:  "ros2 pkg create {py_pkg_name} --build-type ament_python --dependencies rclpy"
       
     + Then try to build with colcon in ros2_ws dir: "colcon build" or "colcon build --packages-select {pkg_name}"
-  7. Create a C++ package in 'ros2_ws/src' path:
+  8. Create a C++ package in 'ros2_ws/src' path:
 
     + Use this command to create a C++ package: "ros2 pkg create {cpp_pkg_name} --build-type ament_cmake --dependencies rclcpp"
       
