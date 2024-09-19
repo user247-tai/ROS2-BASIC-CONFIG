@@ -28,7 +28,7 @@ Tips:
   - Send request to a service: "ros2 service call /{service_name} {interface_path} "{param: value}" ". Ex: "ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 3, b: 5}" "
   - Remap service at Runtime: "ros2 run {execute table} {node_file} --ros-args -r {service_name}:={new_name}". Ex: "ros2 run my_cpp_pkg add_two_ints_server --ros-args -r add_two_ints:=new_name"
     
-5. Parameter
+6. Parameter
   - Get a list of parameters: "ros2 param list"
   - Get parameters value: "ros2 param get /{node_name} {parameter_name}". Ex: "ros2 param get /number_publisher use_sim_time"
   - Run a node with a parameter value: "ros2 run {execute_table} {node_file} --ros-args -p {parameter_name}:={value}". Ex: "ros2 run my_py_pkg number_publisher --ros-args -p test123:=3"
