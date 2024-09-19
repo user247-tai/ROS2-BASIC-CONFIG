@@ -1,4 +1,3 @@
-# Understand TFs, Design a custom robot with URDF, Simulate the robot in Gazebo
 Tips:
 1. Colcon:
   - Don't need to rebuild colcon once the code is changed: colcon build --symlink-install (but if we create a new file, we have to build again).
