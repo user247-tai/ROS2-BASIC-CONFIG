@@ -46,8 +46,8 @@ Tips:
   - Run a node with multiple parameters values: "ros2 run {execute_table} {node_file} --ros-args -p {parameter_name}:={value} -p {parameter_name}:={value}". Ex: "ros2 run my_py_pkg number_publisher --ros-args -p test123:=3 -p another_param:=3.14"
 
 - Reference:
-  - ROS Link://wiki.ros.org/urdf/XML/link
-  - ROS Joint://wiki.ros.org/urdf/XML/joint
+  - ROS Link: http://wiki.ros.org/urdf/XML/link
+  - ROS Joint: http://wiki.ros.org/urdf/XML/joint
   - URDF-Inertia-Documentation: http://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model
   - List-of-Inertia-Matrices-Wikipedia: https://en.wikipedia.org/wiki/List_of_moments_of_inertia#List_of_3D_inertia_tensors
   - Gazebo-plugins-doc: https://classic.gazebosim.org/tutorials?tut=ros_gzplugins
