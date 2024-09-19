@@ -17,7 +17,7 @@ Tips:
   -  Get a topic info: "ros2 topic info /{topic_name}". Ex: "ros2 topic info /robot_news"
   -  Get topic's rate: "ros2 topic hz /{topic_name}". Ex: "ros2 topic hz /robot_news"
   -  Remap topic at Runtime: "ros2 run {execute table} {node_file} --ros-args -r {topic_name}:={new_name}". Ex: "ros2 run my_py_pkg smartphone --ros-args -r robot_news:=my_news"
-  - 
+
 5. Service
   -  Get a list of services: "ros2 service list"
   -  Get a topic type: "ros2 service type /{service_name}". Ex: "ros2 service type /add_two_ints"
