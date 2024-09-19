@@ -28,6 +28,8 @@ Set up ROS2 Humble Environment:
   6. Create a package in 'ros2_ws/src' path(option):
 
     + Use this command to create a package: "ros2 pkg create {pkg_name}". Ex: ros2 pkg create my_robot_interfaces
+      
+    + And then remove "include" and "src" dir inside the package created, and then we can use it. 
   7. Create a python package in 'ros2_ws/src' path:
 
     + Use this command to create a python package:  "ros2 pkg create {py_pkg_name} --build-type ament_python --dependencies rclpy"
