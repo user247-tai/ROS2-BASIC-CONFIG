@@ -9,8 +9,10 @@ Tips:
   -  Run a Node normally: "ros2 run {execute table} {node_file}"
   -  Rename a Node at Runtime: "ros2 run {execute table} {node_file} --ros-args -r {node_name (when init)}:={rename_node}"
     
-3. Show interface:
-  -  ros2 interface show {interface_path}. Ex: "ros2 interface show example_interfaces/msg/String"
+3. Interface:
+  -  Get a list of interfaces in ROS2: ros2 interface list
+  -  Get a list of interfaces in a package: ros2 interface package {package name}. Ex: "ros2 interface package sensor_msgs"  
+  -  Show interface types: ros2 interface show {interface_path}. Ex: "ros2 interface show example_interfaces/msg/String"
     
 4. Topic
   - Get a list of topics: "ros2 topic list"
