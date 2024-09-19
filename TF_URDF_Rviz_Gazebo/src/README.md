@@ -45,7 +45,7 @@ Tips:
   - Run a node with a parameter value: "ros2 run {execute_table} {node_file} --ros-args -p {parameter_name}:={value}". Ex: "ros2 run my_py_pkg number_publisher --ros-args -p test123:=3"
   - Run a node with multiple parameters values: "ros2 run {execute_table} {node_file} --ros-args -p {parameter_name}:={value} -p {parameter_name}:={value}". Ex: "ros2 run my_py_pkg number_publisher --ros-args -p test123:=3 -p another_param:=3.14"
 
-- Reference:
+7. Reference:
   - ROS Link: http://wiki.ros.org/urdf/XML/link
   - ROS Joint: http://wiki.ros.org/urdf/XML/joint
   - URDF-Inertia-Documentation: http://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model
