@@ -6,7 +6,7 @@ Tips:
   - Install Gazebo
       +  Run this command: "sudo apt install ros-humble-gazebo*" (don't forget the *). Maybe also run: "sudo apt install gazebo"
   - Visualize TFs in Rviz2
-      +  Run this command: "sudo apt install ros-humble-urdf-tutortial"
+      +  Run this command: "sudo apt install ros-humble-urdf-tutorial"
       +  Launch an example: "ros2 launch urdf_tutortial display.launch.py model:=08-macroed.urdf.xacro"
   - Install tools for debugging TFs:
       + Run this command: "sudo apt install ros-humble-tf2-tools"
