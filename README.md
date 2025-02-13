@@ -1,5 +1,9 @@
 # ROS2
 Set up ROS2 Humble Environment:
+
+  ![image](https://github.com/user-attachments/assets/8ff331ec-c3ba-4d7e-8c25-9f03b86fcea8)
+
+
   1. Set up development tools:
      
   - Install Terminator:  "sudo apt install terminator"
