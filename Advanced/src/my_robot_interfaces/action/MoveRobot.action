@@ -1,7 +1,12 @@
-int64 position # m
-int64 velocity # m/s
+#Goal 2D
+float64 x
+float64 y
+float64 theta
 ---
-int64 position
+#Result
 string message
 ---
-int64 current_position
+#Feedback
+float64 current_x
+float64 current_y
+float64 current_theta
